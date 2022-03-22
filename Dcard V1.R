@@ -19,4 +19,4 @@ for (i in 1:10) {
   message(nrow(resdata))
 }
 ans = data.frame(id = res2$id, title = res2$title, text = res2$excerpt, origin_link = res2$forumId)
-write.csv(ans, file = 'C:\\Users\\user\\Desktop\\碩\\一下\\3 網路流量分析與行銷應用\\外部資料蒐集\\DATA_1.csv')
+write.csv(ans, file = 'C:\\Users\\user\\Desktop\\DATA_1.csv')
