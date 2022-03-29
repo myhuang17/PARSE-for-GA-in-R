@@ -8,10 +8,9 @@
 
 ## 羽球共和國
 目前完成將網站第一頁的連結及標題爬下來
-1. 後面頁數的
-2. 內文 留言
+1. 內文 留言
 
 
-這些都還缺後續處理~~
+這些都還缺後續處理與分析~~
 
-https://www.youtube.com/watch?v=gFb1TftvdoM&ab_channel=JAYPARK
+https://www.youtube.com/watch?v=ac5lRzYACTs&ab_channel=%E5%8F%8D%E6%AD%A3%E6%88%91%E5%BE%88%E9%96%92
