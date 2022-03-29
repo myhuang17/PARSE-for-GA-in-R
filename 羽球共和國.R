@@ -16,8 +16,6 @@ cawler = function(link){
   tab = cbind(tt,lk)
   return(tab)
 }
-
-
 table = NULL
 for (x in 0:1) {
   if(x == 0){
@@ -43,4 +41,10 @@ content = function(link){
   }
   return(allw)
 }
-xd = content(as.character(table[2,2]))
+
+cont = NULL
+for (x in 1:length(table[,1])) {
+  cont[x] = content(as.character(table[x,2]))
+  Sys.sleep(0.5)
+}
+table = cbind(table, cont)
