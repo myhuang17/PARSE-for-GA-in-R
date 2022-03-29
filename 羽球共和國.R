@@ -1,4 +1,5 @@
 library(rvest)
+#=====================爬連結區
 cawler = function(link){
   html = read_html(link)
   title = html_nodes(html, "a.topictitle")
@@ -29,3 +30,17 @@ for (x in 0:1) {
   tb = cawler(html_t)
   table = rbind(table,tb)
 }
+
+#=====================內文區
+content = function(link){
+  html = read_html(link)
+  ct = html_nodes(html, "div.content")
+  tt = html_text(ct)
+  #內文與留言合併
+  allw = NULL
+  for(u in 1:length(tt)){
+    allw = paste(allw, tt[u], sep = "<NEXT>")
+  }
+  return(allw)
+}
+xd = content(as.character(table[2,2]))
