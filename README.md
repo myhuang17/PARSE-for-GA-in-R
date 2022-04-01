@@ -12,7 +12,9 @@
 目前完成將網站第一頁的連結及標題爬下來
 1. 內文 留言
 
-
+## 中羽在線
+https://www.badmintoncn.com/cbo_eq/list.php?brand=0&sort=0&class=1&fee=&name=&order=buy&page=1
+還沒上架
 
 
 ### 這些都還缺後續處理與分析~~
