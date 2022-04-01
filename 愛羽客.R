@@ -26,4 +26,7 @@ content = function(link){
 tb_ct = NULL
 for(i in 1:length(tabl[,1])){
   tb_ct[i] = content(tabl[i,2])
+  Sys.sleep(0.5)
 }
+ans = cbind(tabl, tb_ct)
+write.csv(ans, file = 'C:\\Users\\user\\Desktop\\DATA_愛羽客.csv')
