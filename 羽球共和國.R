@@ -13,7 +13,7 @@ cawler = function(link){
     lk[i] = paste0("http://www.badmintonrepublic.com/phpbb3", pp)
   }
   lk = lk[4:length(lk)]
-  tab = cbind(tt,lk)
+  tab = cbind(tt, lk)
   return(tab)
 }
 table = NULL
@@ -48,3 +48,4 @@ for (x in 1:length(table[,1])) {
   Sys.sleep(0.5)
 }
 table = cbind(table, cont)
+write.csv(table, file = 'C:\\Users\\user\\Desktop\\DATA_共和國.csv')
