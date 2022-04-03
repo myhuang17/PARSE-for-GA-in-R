@@ -14,7 +14,7 @@
 
 ## 中羽在線-裝備庫
 https://www.badmintoncn.com/cbo_eq/list.php?brand=0&sort=0&class=1&fee=&name=&order=buy&page=1
-最晚4/4 1200上架
+1. 目前沒評論(有需要我再加)
 
 
 ### 這些都還缺後續處理與分析~~
